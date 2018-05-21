@@ -1,0 +1,7 @@
+[ERROR] [2018-05-14 16:40:20][com.poweroak.util.SerialPortUtil]Unknown Application
+  [ERROR] [2018-05-14 16:41:13][com.poweroak.util.SerialPortUtil]Unknown Application
+  [ERROR] [2018-05-14 16:45:48][com.poweroak.util.SerialPortUtil]Unknown Application
+  [ERROR] [2018-05-14 16:47:34][com.poweroak.util.SerialPortUtil]PortInUseException:Unknown Application
+  [ERROR] [2018-05-17 16:18:01][com.poweroak.util.SerialPortUtil]NoSuchPortException:null
+  [DEBUG] [2018-05-17 17:16:16][com.poweroak.util.MonitorSerialPortListener]//./COM2收到消息:-----------------0110
+  
