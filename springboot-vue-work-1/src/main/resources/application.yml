@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active:
+    - dev
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+    
+    
+logging:
+  config: classpath:logback-roncoo.xml
+  
+mybatis:
+  type-aliases-package: net.poweroak.mapper
+  mapper-locations: classpath:mapper/*.xml
+  configLocation: classpath:mybatis-config.xml
+
+
+        
