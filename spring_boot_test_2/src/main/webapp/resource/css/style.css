@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,cite,code,del,em,img,q,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,tr,th,td{ 
+margin:0; 
+padding:0;
+border:0; 
+}
+ol,ul{ 
+	list-style:none;
+}
+cite,em,strong,th,h1,h2,h3,h4,h5,h6{
+ }
+table{border-collapse:collapse; 
+border-spacing:0;
+}
+input,textarea,select,button{ 
+}
+a{text-decoration:none;
+}
+a:hover{
+
+}
+.clear{clear:both
+}
+body{ 
+font-family: Microsoft Yahei, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#666;
+}
+html,body{
+height:100%;
+}
+.wrap{ width:100%;
+	}
+.yuanjiao{
+   behavior: url(css/PIE.htc);
+   }
+select { font-family : Trebuchet MS } 
+select::-ms-expand { display: none;}
+/* 用户样式 */
+
+input[type="text"]:hover{ border:1px solid #98caec;
+box-shadow: 0 0 2px #98caec;}
+
+input[type="button"]:hover{ background-color: #008ef8;}
+
+input[type="submit"]:hover{ background-color: #008ef8;}
+
+select:hover{ border:1px solid #0091ff;
+box-shadow: 0 0 2px #0091ff;}
+
+textarea:hover{ border:1px solid #0091ff;
+box-shadow: 0 0 2px #0091ff;}
+
+input[type="text"]:active{ border:1px solid #98caec;
+box-shadow: 0 0 2px #98caec;}
+
+input[type="button"]:active{ background-color: #008ef8;}
+
+input[type="submit"]:active{ background-color: #008ef8;
+}
+
+select:active{ border:1px solid #0091ff;
+box-shadow: 0 0 2px #0091ff;}
+
+textarea:active{ border:1px solid #0091ff;
+box-shadow: 0 0 2px #0091ff;}
